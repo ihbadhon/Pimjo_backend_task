@@ -37,7 +37,7 @@ This project implements a rate-limited API endpoint that tracks and restricts re
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ihbadhon/Pimjo_backend_task.gigithub.com/ihbadhon/Pimjo_backend_task.git
    cd Pimjo_Assignment
    ```
 
@@ -91,7 +91,7 @@ curl -X POST http://localhost:5000/api/action \
 
 ```json
 {
-  "message": "done"
+  "message": "Operation completed successfully"
 }
 ```
 
