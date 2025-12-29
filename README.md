@@ -37,7 +37,7 @@ This project implements a rate-limited API endpoint that tracks and restricts re
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/ihbadhon/Pimjo_backend_task.gigithub.com/ihbadhon/Pimjo_backend_task.git
+   git clone https://github.com/ihbadhon/Pimjo_backend_task.git
    cd Pimjo_Assignment
    ```
 
