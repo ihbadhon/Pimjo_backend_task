@@ -107,7 +107,7 @@ curl -X POST http://localhost:5000/api/action \
 
 ### Configuration
 
-- **Window:** 10 seconds (10,000 milliseconds)
+- **Window:** 60 seconds (60,000 milliseconds)
 - **Limit:** 10 requests per window
 - **Tracking Method:** IP address-based
 - **Implementation:** In-memory Map storage

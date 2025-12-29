@@ -1,6 +1,6 @@
 import { writeAuditLog } from "../services/service.js";
 
-const WINDOW_MS = 10 * 1000;
+const WINDOW_MS = 60 * 1000;
 const LIMIT = 10;
 const ipStore = new Map();
 
