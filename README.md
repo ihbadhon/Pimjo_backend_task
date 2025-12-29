@@ -14,6 +14,16 @@ This project implements a rate-limited API endpoint that tracks and restricts re
 - ✅ Express.js REST API
 - ✅ Automated testing script included
 
+## Technologies Used
+
+- **Node.js** - Runtime environment
+- **Express.js** (v5.2.1) - Web framework
+- **MongoDB** (v7.0.0) - NoSQL database with official Node.js driver
+- **MongoDB Atlas** - Cloud-hosted database service
+- **dotenv** (v17.2.3) - Environment variable management
+- **File System (fs)** - Node.js built-in module for local log buffering
+- **Nodemon** - Development server with auto-restart
+
 ## How to Run the Project
 
 ### Prerequisites
@@ -238,14 +248,6 @@ Pimjo_Assignment/
 └── Utils/
     └── logger.js           # MongoDB log upload utility
 ```
-
-## Technologies Used
-
-- **Node.js** - Runtime environment
-- **Express.js** - Web framework
-- **MongoDB Atlas** - Cloud database
-- **File System (fs)** - Local log buffering
-- **dotenv** - Environment variable management
 
 ## Testing
 
