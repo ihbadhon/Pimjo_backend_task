@@ -122,7 +122,7 @@ curl -X POST http://localhost:5000/api/action \
 1. Each incoming request is tracked by the client's IP address
 2. The system maintains a sliding window of timestamps for each IP
 3. When a request arrives:
-   - Old timestamps outside the 10-second window are removed
+   - Old timestamps outside the 60-second window are removed
    - The current timestamp is added to the list
    - If the count exceeds 10 requests, the request is blocked
 4. All requests (allowed and blocked) are logged for audit purposes
@@ -132,7 +132,7 @@ curl -X POST http://localhost:5000/api/action \
 ```
 Time: 0s  → Request 1-10: ✅ Allowed (200 OK)
 Time: 5s  → Request 11:    ❌ Blocked (429 Too Many Requests)
-Time: 11s → Request 12:    ✅ Allowed (first request expired from window)
+Time: 61s → Request 12:    ✅ Allowed (first request expired from window)
 ```
 
 ## Storage Choice and Reasoning
