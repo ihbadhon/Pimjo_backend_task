@@ -55,12 +55,9 @@ This project implements a rate-limited API endpoint that tracks and restricts re
    PORT=5000
    DB_USER=your_mongodb_username
    DB_PASS=your_mongodb_password
-   EXAMPLE
-   DB_USER = Pimjo_Database
-   DB_PASS = IQ2Fyot5BNN00KPt
    ```
 
-   ```Example
+   ``` You can use this for testing purpose
    DB_USER = Pimjo_Database
    DB_PASS = IQ2Fyot5BNN00KPt
    ```
